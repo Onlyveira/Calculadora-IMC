@@ -1,0 +1,114 @@
+body{
+    font-size: 25px;
+    color: #000;
+    background: rgba(0, 0, 0, 0.912); justify-content: center;
+    align-content: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:  0;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+}
+
+main{
+    margin-top: 100px;
+    height: max-content;
+    max-width: 500px;
+    background: rgb(255, 174, 0);
+    border-radius: 21px;
+
+    
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 20px 20px 50px -30px #7c7c64
+
+}
+
+main .calculadoraimc{
+    
+    justify-content: center;
+    align-items: center;
+} 
+hr{
+    margin-top: 0;
+    border-color: rgb(0, 0, 0);
+    max-height: 1px;
+    width: 300px;
+}
+
+.conjunto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+
+}
+.conjunto:last-child{
+    margin-left: 0px;
+    margin-bottom: 0;
+}
+input{
+    border-radius: 10px;
+    border-style: none;
+
+
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 35px;
+}
+
+
+
+
+input::placeholder{
+    text-align: center;
+    color: #000;
+}
+
+button{
+    font-size: 20px;
+    background: #000;
+    color: rgb(255, 174, 0);
+
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+
+    justify-self: center;
+    align-self: center;
+    
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 20px 20px 50px -20px #000000
+
+}
+
+#resultado{
+    justify-self: center;
+    align-self: center;
+
+    width: 300px;
+    height: 130px;
+ 
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    border-radius: 15px;
+
+    padding: 5px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 174, 0);
+}
+.fantasma{
+    width: 70px;
+}
